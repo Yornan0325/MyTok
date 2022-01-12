@@ -4,14 +4,16 @@
   format('ttf');
   font-weight:400
 }
+
 @font-face {
   font-family: 'Proxima Nova';
   src: url('assets/FontsFree-Net-NotoSans-SemiBold.ttf')
   format('ttf');
   font-weight:600
 }
+
 body {
-  margin: 0;
+  margin:0;
   font-family:'Proxima Nova', 'Arial', 'Tahoma', 'PingFanSC',
     'Segoe', 'UI', 'Emoji', 'Noto emoji', 'Helvetica Neue',
     sans-serif;
@@ -19,4 +21,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
- 
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
