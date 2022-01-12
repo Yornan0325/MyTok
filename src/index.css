@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/FontsFree-Net-MostinThin-x3pxV.ttf')
+  format('ttf');
+  font-weight:400
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('assets/FontsFree-Net-NotoSans-SemiBold.ttf')
+  format('ttf');
+  font-weight:600
+}
+body {
+  margin: 0;
+  font-family:'Proxima Nova', 'Arial', 'Tahoma', 'PingFanSC',
+    'Segoe', 'UI', 'Emoji', 'Noto emoji', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ 
