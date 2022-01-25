@@ -5,9 +5,10 @@
 .wrapper {
   position: relative;
 }
+
 .player {
   background-color: transparent;
-  background-image: url("assets/player.png");
+  background-image: url("assets/playtiktok.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -25,8 +26,8 @@
 
 .actions{
 position: absolute;
-background-color: lightcoral;
-bottom: 16px;
+/* background-color: lightcoral; */
+bottom: 120px;
 right: 16px;
 }
 .action{
