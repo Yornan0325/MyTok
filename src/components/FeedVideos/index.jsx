@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 const VIDEOS = [
   {
     id: 1,
-    athor: 'felipesierra556',
+    author: 'felipesierra556',
     description:
       'Mira el video hasta el final ✨😱😱 y Sigueme en Instagram #mariaenelcentro #parati #fyp #medellin #takisfuego',
     likes: 123,
@@ -12,12 +12,12 @@ const VIDEOS = [
     songTitle: '',
     albumCover:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/68c94e9a7c0736f64ca5cab3cdda5696~c5_720x720.jpeg?x-expires=1642550400&x-signature=N7KmpHLQZAGqGQV99HpVr0b2qLQ%3D',
-    src: 'https://v16-webapp.tiktok.com/5eb2e01d37bd1ed957f5001395e07338/61e720fb/video/tos/useast2a/tos-useast2a-pve-0068/378cfffa9e50481e8c576fe17aa8e86d/?a=1988&br=1408&bt=704&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FFkkag3-I&l=2022011814180901019204815803201CD2&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=anJmNGQ6ZmtqOTMzNzczM0ApaTpmaWU1OmQ2NzkzPDY0aGdyaGhpcjRnbTRgLS1kMTZzc2JgMWEuMDU1Ll4uYTJjMTU6Yw%3D%3D&vl=&vr='
+    src: 'https://v16-webapp.tiktok.com/9f67f4dc68dec3f785970cf43f9a9594/61ef7813/video/tos/useast2a/tos-useast2a-pve-0068/51045b5516dc44c8a9c03f8de2fcbfd9/?a=1988&br=2432&bt=1216&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7Thp6i5lXq&l=2022012422094501022312304605644C6D&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ajU5Zmg6ZjtvOjMzNzczM0ApZWc8OzRmOmVlNzhmO2dkNGcvaWFfcjRnXmdgLS1kMTZzc2BfMTAyMmFeX2E1L2M2MDE6Yw%3D%3D&vl=&vr='
   },
 
   {
     id: 2,
-    athor: 'felipesierra556',
+    author: 'felipesierra556',
     description:
       'Mira el video hasta el final ✨😱😱 y Sigueme en Instagram #mariaenelcentro #parati #fyp #medellin #takisfuego',
     likes: 123,
@@ -26,8 +26,9 @@ const VIDEOS = [
     songTitle: '',
     albumCover:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/68c94e9a7c0736f64ca5cab3cdda5696~c5_720x720.jpeg?x-expires=1642550400&x-signature=N7KmpHLQZAGqGQV99HpVr0b2qLQ%3D',
-    src: 'https://v16-webapp.tiktok.com/22728d15f0b76faa1fa3260fc46accba/61e720e4/video/tos/useast2a/tos-useast2a-pve-0068/130d6a2e5dee4d8883119f377cee78aa/?a=1988&br=5472&bt=2736&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FFkkag3-I&l=2022011814180901019204815803201CD2&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M2o8cmY6Zjc8OTMzNzczM0ApNDY4PDo8NGUzN2dnOTk5NWdyYy9hcjQwMWVgLS1kMTZzc14yLTE2XjFhYDBiXi9fNV86Yw%3D%3D&vl=&vr='
+    src: 'https://v16-webapp.tiktok.com/24727e95be5397aa1dd23b44c56e829a/61ef7814/video/tos/useast2a/tos-useast2a-pve-0068/3683a38f7add48a88e127579b4df1001/?a=1988&br=2282&bt=1141&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7Thp6i5lXq&l=2022012422094501022312304605644C6D&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ank6PGY6ZnAzOjMzNzczM0ApZWhlZDw2MztoNztkPDM0OmdlNS9ycjRfY2tgLS1kMTZzcy5jXzI1Xy4wMTVhYDQvMi86Yw%3D%3D&vl=&vr='
   }
+
 ]
 export default function FeedVideos () {
   return VIDEOS.map((video) => {
