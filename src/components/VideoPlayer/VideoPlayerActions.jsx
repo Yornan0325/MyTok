@@ -4,20 +4,33 @@ import { Comment } from '../Icons/Comment'
 import styles from './styles.module.css'
 
 export default function VideoPlayerAtions ({ likes = 172, comments = 112, shares = 142, hearted = false }) {
+  const handleLike = () => {
+    window.alert('like')
+  }
+  const handleComment = () => {
+    window.alert('comment')
+  }
+  const handleShare = () => {
+    window.alert('share')
+  }
   return (
     <aside className={styles.actions}>
-      <div className={styles.action}>
+
+      <button onClick={handleLike} className={styles.action}>
         <Heart />
-        <strong title='like'>{likes}</strong>
-      </div>
-      <div className={styles.action}>
+        <span title='like'>{likes}</span>
+      </button>
+
+      <button onClick={handleShare} className={styles.action}>
         <Share />
-        <strong title='shares'>{shares}</strong>
-      </div>
-      <div className={styles.action}>
+        <span title='shares'>{shares}</span>
+      </button>
+
+      <button onClick={handleComment} className={styles.action}>
         <Comment />
-        <strong title='comments'>{comments}</strong>
-      </div>
+        <span title='comments'>{comments}</span>
+      </button>
+
     </aside>
   )
 }
