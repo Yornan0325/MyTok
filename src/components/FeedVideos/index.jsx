@@ -9,10 +9,10 @@ const VIDEOS = [
     likes: 123,
     shares: 456,
     conments: 214,
-    songTitle: '',
+    songTitle: 'sonido original - zzerok1',
     albumCover:
-      'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/68c94e9a7c0736f64ca5cab3cdda5696~c5_720x720.jpeg?x-expires=1642550400&x-signature=N7KmpHLQZAGqGQV99HpVr0b2qLQ%3D',
-    src: 'https://v16-webapp.tiktok.com/9f67f4dc68dec3f785970cf43f9a9594/61ef7813/video/tos/useast2a/tos-useast2a-pve-0068/51045b5516dc44c8a9c03f8de2fcbfd9/?a=1988&br=2432&bt=1216&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7Thp6i5lXq&l=2022012422094501022312304605644C6D&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ajU5Zmg6ZjtvOjMzNzczM0ApZWc8OzRmOmVlNzhmO2dkNGcvaWFfcjRnXmdgLS1kMTZzc2BfMTAyMmFeX2E1L2M2MDE6Yw%3D%3D&vl=&vr='
+      'https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3190f6359853731e3881398ec27a94f4~c5_720x720.jpeg?x-expires=1643911200&x-signature=2o08Bz1FRPPE9swrUx5TZwcTPA0%3D',
+    src: 'https://v16-webapp.tiktok.com/fa4b1ab1f7e06f680df0c97f721fa89e/61fdd413/video/tos/useast2a/tos-useast2a-ve-0068c003/99b91c05bcfe438b8587fcf210288c1e/?a=1988&br=4194&bt=2097&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7ThiaPxlXq&l=2022020419331501022301604809DA9973&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=am48Zjw6ZmpwOjMzNzczM0ApMzxpNWVoNGVoNzZnNWlmM2cvZGtpcjRvM2VgLS1kMTZzcy8zNGNgYi8tYjRjNS1gNGE6Yw%3D%3D&vl=&vr='
   },
 
   {
@@ -23,10 +23,10 @@ const VIDEOS = [
     likes: 123,
     shares: 456,
     conments: 214,
-    songTitle: '',
+    songTitle: 'sonido original - zzerok1',
     albumCover:
       'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/68c94e9a7c0736f64ca5cab3cdda5696~c5_720x720.jpeg?x-expires=1642550400&x-signature=N7KmpHLQZAGqGQV99HpVr0b2qLQ%3D',
-    src: 'https://v16-webapp.tiktok.com/24727e95be5397aa1dd23b44c56e829a/61ef7814/video/tos/useast2a/tos-useast2a-pve-0068/3683a38f7add48a88e127579b4df1001/?a=1988&br=2282&bt=1141&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7Thp6i5lXq&l=2022012422094501022312304605644C6D&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=ank6PGY6ZnAzOjMzNzczM0ApZWhlZDw2MztoNztkPDM0OmdlNS9ycjRfY2tgLS1kMTZzcy5jXzI1Xy4wMTVhYDQvMi86Yw%3D%3D&vl=&vr='
+    src: 'https://v16-webapp.tiktok.com/26a6e46c94c9e34baa4f619f263205aa/61fdd3eb/video/tos/useast2a/tos-useast2a-ve-0068c002/b7185ec5cf05436085d8d623d7584009/?a=1988&br=2762&bt=1381&cd=0%7C0%7C1%7C0&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=XOQ9-33nnz7ThiaPxlXq&l=2022020419331501022301604809DA9973&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=amY4cjU6Zm5lOjMzNzczM0ApaDo7aDQ7OWVoNzQzPGZpO2c1a2JvcjQwLzNgLS1kMTZzczJjYV4tL2NiNmAyNTE0LWI6Yw%3D%3D&vl=&vr='
   }
 
 ]
